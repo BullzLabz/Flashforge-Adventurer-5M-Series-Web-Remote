@@ -1,7 +1,5 @@
 # Flashforge AD5M Series Web IDE Remote
 
-___
-
 I created this project to be able to more easily control some parameters of my Flashforge AD5M 3D printer such as:
 * Turn on/off the lighting remotely ([Mod here](https://www.printables.com/model/786611-flashforge-adventurer-5m-led-bar-with-magnets))
 * Check how the printing is going via the camera (Integrated or USB)
@@ -41,11 +39,11 @@ Here are some screenshots of the current state of this Web application.
 * https://github.com/mstraciak/flashforge-ad5m-mods
 
 ___
+
+##FRENCH VERSION
 ___
 
 # Flashforge AD5M Series Web IDE Remote
-
-___
 
 J'ai créér ce projet pour pouvoir controller plus facilement certains paramètres de mon imprimante 3D Flashforge AD5M comme :
 * Allumer/Eteindre l'éclairage à distance ([Mod here](https://www.printables.com/model/786611-flashforge-adventurer-5m-led-bar-with-magnets))
