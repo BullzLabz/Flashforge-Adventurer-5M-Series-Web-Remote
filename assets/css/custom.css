@@ -1,0 +1,478 @@
+[data-bs-theme=light] .btn-outline-light {
+  --bd-white-bg: #ffffff;
+  --bd-grey-bg: #d4d4d4;
+  --bd-grey-rgb: rgba(212, 212, 212, 0.74);
+  --bs-btn-font-weight: 200;
+  --bs-btn-color: var(--bs-secondary);
+  --bs-btn-bg: var(--bd-white-bg);
+  --bs-btn-border-color: var(--bd-grey-bg);
+  --bs-btn-hover-color: var(--bs-secondary);
+  --bs-btn-hover-bg: rgba(229, 229, 229, 0.393);
+  --bs-btn-hover-border-color: #adadad;
+  --bs-btn-focus-shadow-rgb: var(--bd-grey-rgb);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color: var(--bs-primary-subtle);
+}
+
+[data-bs-theme=dark] .btn-outline-light {
+  --bd-dark-bg: #212529;
+  --bd-light-bg: #eeeeee;
+  --bd-grey-rgb: rgba(212, 212, 212, 0.74);
+  --bs-btn-font-weight: 200;
+  --bs-btn-color: var(--bd-light-bg);
+  --bs-btn-bg: var(--bd-dark-bg);
+  --bs-btn-border-color: var(--bs-dark-bg-subtle);
+  --bs-btn-hover-color: var(--bs-secondary);
+  --bs-btn-hover-bg: #1b1f23;
+  --bs-btn-hover-border-color: var(--bs-dark);
+  --bs-btn-focus-shadow-rgb: var(--bd-grey-rgb);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: var(--bs-tertiary);
+  --bs-btn-active-border-color: var(--bs-dark);
+}
+
+[data-bs-theme=light] #pause-btn {
+  --bd-white-bg: #ffffff;
+  --bd-grey-bg: #d4d4d4;
+  --bd-grey-rgb: rgba(212, 212, 212, 0.74);
+  --bs-btn-font-weight: 200;
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-bg: var(--bd-white-bg);
+  --bs-btn-border-color: var(--bd-grey-bg);
+  --bs-btn-hover-color: var(--bs-secondary);
+  --bs-btn-hover-bg: rgba(229, 229, 229, 0.393);
+  --bs-btn-hover-border-color: #adadad;
+  --bs-btn-focus-shadow-rgb: var(--bd-grey-rgb);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color: var(--bs-primary-subtle);
+}
+
+[data-bs-theme=dark] #pause-btn {
+  --bd-dark-bg: #212529;
+  --bd-light-bg: #eeeeee;
+  --bd-grey-rgb: rgba(212, 212, 212, 0.74);
+  --bs-btn-font-weight: 200;
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-bg: var(--bd-dark-bg);
+  --bs-btn-border-color: var(--bs-dark-bg-subtle);
+  --bs-btn-hover-color: var(--bs-secondary);
+  --bs-btn-hover-bg: #1b1f23;
+  --bs-btn-hover-border-color: var(--bs-dark);
+  --bs-btn-focus-shadow-rgb: var(--bd-grey-rgb);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: var(--bs-primary);
+  --bs-btn-active-border-color: var(--bs-primary-border-subtle);
+}
+
+[data-bs-theme=light] #cancel-btn {
+  --bd-white-bg: #ffffff;
+  --bd-grey-bg: #d4d4d4;
+  --bd-grey-rgb: rgba(212, 212, 212, 0.74);
+  --bs-btn-font-weight: 200;
+  --bs-btn-color: var(--bs-danger);
+  --bs-btn-bg: var(--bd-white-bg);
+  --bs-btn-border-color: var(--bd-grey-bg);
+  --bs-btn-hover-color: var(--bs-secondary);
+  --bs-btn-hover-bg: rgba(229, 229, 229, 0.393);
+  --bs-btn-hover-border-color: #adadad;
+  --bs-btn-focus-shadow-rgb: var(--bd-grey-rgb);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: var(--bs-danger);
+  --bs-btn-active-border-color: var(--bs-primary-subtle);
+}
+
+[data-bs-theme=dark] #cancel-btn {
+  --bd-dark-bg: #212529;
+  --bd-light-bg: #eeeeee;
+  --bd-grey-rgb: rgba(212, 212, 212, 0.74);
+  --bs-btn-font-weight: 200;
+  --bs-btn-color: var(--bs-danger);
+  --bs-btn-bg: var(--bd-dark-bg);
+  --bs-btn-border-color: var(--bs-dark-bg-subtle);
+  --bs-btn-hover-color: var(--bs-secondary);
+  --bs-btn-hover-bg: #1b1f23;
+  --bs-btn-hover-border-color: var(--bs-dark);
+  --bs-btn-focus-shadow-rgb: var(--bd-grey-rgb);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: var(--bs-danger);
+  --bs-btn-active-border-color: var(--bs-danger-border-subtle);
+}
+
+.navbar-toggler { border-width: 0px !important;}
+.navbar-toggler > .bi-info-circle { transition: all 0.25s ease-in-out 0s;}
+.navbar-toggler > .bi-info-circle:hover { color: var(--bs-primary); transition: all 0.25s ease-in-out 0s;}
+
+.card-text {}
+
+.border-dashed { --bs-border-style: dashed; }
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg { font-size: 3.5rem;}
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  /* vertical-align: middle; */
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle { z-index: 1500;}
+
+.bd-mode-toggle .dropdown-menu .active .bi { display: block !important;}
+
+.dynText {}
+.dynText span {}
+
+.my-gr {min-width: 100%;}
+
+#pause-btn, #cancel-btn { min-width: 195px; min-height: 66px;}
+#file-btn, #light-btn, #air-btn { min-width: 130px;}
+
+/* ====================================== */
+/* =========== INPUT NUMBER ============= */
+/* ====================================== */
+
+.offcanvas {
+  bottom: 20px;
+  bottom: 20px;
+  left: 10px !important;
+  right: 10px !important;
+  border-radius: 15px;
+  border: 0;
+  height: auto !important;
+  padding-bottom: 20px;
+  --bs-offcanvas-height: 40vh !important;
+}
+
+.form-control {
+  max-width:80px !important;
+  border: 0;
+}
+
+.input-number {}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  font-weight: 200;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn-number {
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-bg: none;
+  --bs-btn-border-color: none;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: none;
+  --bs-btn-focus-shadow-rgb: none;
+  --bs-btn-active-color: var(--bs-primary-subtle);
+  --bs-btn-active-bg: transparent;
+  --bs-btn-active-border-color: none;
+  --bs-btn-padding-x: 0;
+  --bs-btn-padding-y: 0;
+  --bs-font-weight: 200;
+}
+
+.fs-minus, .fs-plus {
+  font-size: 1.5rem !important;
+}
+
+@media (max-width:420px) {
+  .form-control {
+    max-width:60px !important;
+    border: 0;
+  }
+  .fs-minus, .fs-plus {
+    font-size: 1.0rem !important;
+  }
+}
+
+/* ==================================== */
+/* =========== ANIMATIONS ============= */
+/* ==================================== */
+
+@keyframes gear {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg)  }
+}
+
+@keyframes animateColor {
+     0% {filter: hue-rotate(0deg);}
+     100% {filter: hue-rotate(360deg);}
+}
+
+@keyframes animateOpacity {
+     0% { opacity: .0;}
+     50% { opacity: 1;}
+     100% { opacity: .0;}
+}
+
+.bi-gear {
+  animation: gear 5s linear infinite;
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes pulseGreen {
+  from {
+    -webkit-transform: scale(1, 1, 1)!important;
+    transform: scale(1, 1, 1)!important;
+    color: rgb(35, 255, 0);
+  }
+
+  50% {
+    -webkit-transform: scale(1.05, 1.05, 1.05)!important;
+    transform: scale(1.05, 1.05, 1.05)!important;
+    color: rgba(176, 255, 163, 0.235);
+  }
+
+  to {
+    -webkit-transform: scale(1, 1, 1)!important;
+    transform: scale(1, 1, 1)!important;
+    color: rgb(35, 255, 0);
+  }
+}
+
+@keyframes pulseRed {
+  from {
+    -webkit-transform: scale(1, 1, 1)!important;
+    transform: scale(1, 1, 1)!important;
+    color: rgb(255, 0, 0);
+  }
+
+  50% {
+    -webkit-transform: scale(1.05, 1.05, 1.05)!important;
+    transform: scale(1.05, 1.05, 1.05)!important;
+    color: rgba(255, 163, 163, 0.235);
+  }
+
+  to {
+    -webkit-transform: scale(1, 1, 1)!important;
+    transform: scale(1, 1, 1)!important;
+    color: rgb(255, 0, 0);
+  }
+}
+
+@keyframes pulseBi {
+  from {
+    -webkit-transform: scale(1, 1, 1)!important;
+    transform: scale(1, 1, 1)!important;
+    color: rgb(35, 255, 0);
+  }
+
+  25% {
+    -webkit-transform: scale(1.05, 1.05, 1.05)!important;
+    transform: scale(1.05, 1.05, 1.05)!important;
+    color: rgba(255, 163, 163, 0.235);
+  }
+
+  50% {
+    -webkit-transform: scale(1.05, 1.05, 1.05)!important;
+    transform: scale(1.05, 1.05, 1.05)!important;
+    color: rgb(255, 130, 0);
+  }
+
+  75% {
+    -webkit-transform: scale(1.05, 1.05, 1.05)!important;
+    transform: scale(1.05, 1.05, 1.05)!important;
+    color: rgba(255, 163, 163, 0.235);
+  }
+
+  to {
+    -webkit-transform: scale(1, 1, 1)!important;
+    transform: scale(1, 1, 1)!important;
+    color: rgb(35, 255, 0);
+  }
+}
+
+[data-bs-state=\00a0READY\00a0] {
+  animation: pulseGreen 2s infinite;
+}
+
+[data-bs-state=\00a0MOVING\00a0] {
+  animation: pulseBi 2s infinite;
+}
+
+[data-bs-state=\00a0] {
+  animation: pulseRed 2s infinite;
+}
+
+/* ============================================ */
+/* =========== WS REMOTE SETTINGS ============= */
+/* ============================================ */
+
+body[state="open"] [disconnected] { display: none;}
+
+body[state="open"] #connect-btn {
+  background-color: #4cd964 !important;
+  border-color: #4cd964 !important;
+  color: #212529;
+}
+
+body[state="open"] .open {
+  content:  "\F61B";
+}
+
+body[state="open"] .close {
+  content:  "\F61C";
+}
+
+[icon="open"] { color: greenyellow;}
+[icon="close"] { color: rgb(255, 0, 0);}
+
+.status {
+  width: 55px;
+  height: var(--ui-height);
+  min-width: var(--ui-height);
+  min-height: var(--ui-height);
+  background-color: currentColor;
+  border-radius: 19px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#frame-left { font-size: 100px; letter-spacing: 0em; font-weight: 1;  }
+
+#streamBox {
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  color: var(--bs-text-color);
+  max-width: 960px;
+}
+
+@media (max-width: 420px) {
+  .tempLive, .tempSet { font-size: 0.8rem;}
+}
+
+.tempLive {}
+
+.showHide {
+  position: absolute;
+  top: 17%;
+  right: 2%;
+  background-color: transparent;
+  border: 0 none;
+}
+
+/* ================================ */
+/* =========== SWITCH ============= */
+/* ================================ */
+
+.list-custom-small .custom-control {
+  z-index: 10;
+  position: absolute;
+  right: 40px;
+  margin-top: -38px!important;
+}
+
+.color-white { color: #fff!important;}
+
+.bi-rotate-180, .bi-rotate-90, [data-bs-toggle] i {transition: all 350ms ease;}
+
+.btn, input, select {box-shadow: none!important;outline: 0!important;}
+
+input:not([type=file]), select, textarea {
+  background-color: transparent!important;
+  font-size:1em;
+  font-weight: 200;
+}
+
+.scale-switch { transform: scale(.9,.9);}
+
+/* =============================================== */
+/* =========== DOCUMENTATION TOOLTIP ============= */
+/* =============================================== */
+
+#remoteTooltip{
+  height: 550px;
+  width: 232px;
+  display: block;
+  background-color: transparent;
+  /* background-image:url("../img/remote.svg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center, 50%, 50%;
+  margin: 0 auto;
+}
+
+#tooltip {
+  transition: all 3s ease-in-out 0s;
+}
+
+#tooltip-title {
+  padding: 0 !important;
+  margin: 0 !important;
+  color: var(--bs-gray-600);
+  /* transition: all 3s ease-in-out 0s; */
+}
+
+#tooltip-desc {
+  /* transition: all 3s ease-in-out 0s; */
+}

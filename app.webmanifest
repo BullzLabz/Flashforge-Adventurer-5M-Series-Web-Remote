@@ -1,0 +1,57 @@
+{
+  "name": "AD5M Remote",
+  "description": "Flashforge Adveturer 5M IDE",
+  "start_url": "",
+  "lang": "us-US",
+  "theme_color": "#ebebeb",
+  "background_color": "#212529",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/img/icons/80.png",
+      "type": "image/png",
+      "sizes": "80x80"
+    },
+    {
+      "src": "assets/img/icons/152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "assets/img/icons/167.png",
+      "type": "image/png",
+      "sizes": "167x167"
+    },
+    {
+      "src": "assets/img/icons/180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "assets/img/icons/48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "assets/img/icons/96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "assets/img/icons/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/img/icons/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "assets/img/icons/1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    }
+  ]
+}
